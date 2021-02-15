@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simply Navigation - A lightweight navigation component</title>
+  <meta property="og:title" content="Simply Navigation" />
+  <meta name="description" property="og:description"
+    content="A simple navigation component built using vanilla JS &amp; Flexbox." />
+  <meta property="og:url" content="https://github.com/obscuredetour/simply-nav/index.html" />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/obscuredetour/simply-nav/master/assets/images/logo-full-dark.svg" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <!-- Navigation / nav-wrapper component -->
+  <!-- Right-side hamburger markup -->
+  <header class="nav -right-aligned">
+    <nav class="nav-bar">
+      <a class="nav-logo -mobile" href="#">
+        <img class="nav-logo__image" id="logo" src="assets/images/logo.svg" alt="Logo">
+      </a>
+
+      <ul class="nav-list mt-3" role="menu" aria-hidden="true">
+        <div class="nav-list__wrapper">
+          <li class="nav-list__item" role="none">
+            <a class="nav-logo" href="#">
+              <img class="nav-logo__image" id="logo" src="assets/images/logo.svg" alt="Logo">
+            </a>
+          </li>
+          <select id="naslar" class="ml-5"
+            style="background-color: #05420a; font-size:25px;">
+            <option style="color: yellow;">Nas Sec</option>
+            <option selected="selected" value="Gozlemen1" style="color: yellow;">Gozlemen1</option>
+            <option value="Gozlemen2" style="color: yellow;">Gozlemen2</option>
+            <option value="Gozlemen3" style="color: yellow;">Gozlemen3</option>
+            <option value="Gozlemen4" style="color: yellow;">Gozlemen4</option>
+            <option value="Hastane1" style="color: yellow;">Hastane1</option>
+            <option value="Gozlemen6" style="color: yellow;">Gozlemen6</option>
+            <option value="Degirmendere1" style="color: yellow;">Degirmendere1</option>
+            <option value="Degirmendere2" style="color: yellow;">Degirmendere2</option>
+            <option value="Merkez1" style="color: yellow;">Merkez1</option>
+            <option value="Merkez2" style="color: yellow;">Merkez2</option>
+            <option value="Yuvacik1" style="color: yellow;">Yuvacik1</option>
+            <option value="Balturk1" style="color: yellow;">Balturk1</option>
+            <option value="Gozlemen7" style="color: yellow;">Gozlemen7</option>
+            <option value="Merkez3" style="color: yellow;">Merkez3</option>
+            <option value="Yuvacik2" style="color: yellow;">Yuvacik2</option>
+            <option value="Degirmendere3" style="color: yellow;">Degirmendere3</option>
+            <option value="Yuvacik3" style="color: yellow;">Yuvacik3</option>
+            <option value="Hastane2" style="color: yellow;">Hastane2</option>
+            <option value="Balturk2" style="color: yellow;">Balturk2</option>
+            <option value="Balturk3" style="color: yellow;">Balturk3</option>
+            <option value="Degirmendere4" style="color: yellow;">Degirmendere4</option>
+            <option value="Yuvacik4" style="color: yellow;">Yuvacik4</option>
+            <option value="Balturk4" style="color: yellow;">Balturk4</option>
+            <option value="Merkez4" style="color: yellow;">Merkez4</option>
+            <option value="Gozlemen5" style="color: yellow;">Gozlemen5</option>
+            <option value="Gozlemen8" style="color: yellow;">Gozlemen8</option>
+            <option value="Yuvacik5" style="color: yellow;">Yuvacik5</option>
+            <option value="Hastane3" style="color: yellow;">Hastane3</option>
+            <option value="Degirmendere5" style="color: yellow;">Degirmendere5</option>
+            <option value="Balturk5" style="color: yellow;">Balturk5</option>
+            <option value="Gozlemen9" style="color: yellow;">Gozlemen9</option>
+            <option value="Gozlemen10" style="color: yellow;">Gozlemen10</option>
+          </select>
+          <button type="button" id="basildi" class="ml-5 mt-1 btn-sm btn-outline-warning">Getir</button>
+
+        </div>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <div class="container ml-5 " id="cardS">
+      <div id="selamDur" class="d-flex align-content-start flex-wrap">
+
+      </div>
+
+    </div>
+
+
+  </main>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
